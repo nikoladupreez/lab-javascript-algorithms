@@ -14,13 +14,15 @@ console.log(`The navigator's name is ${hacker2}`);
 //Conditionals (5)
 function strLength(str1, str2){
     if (str1.length === str2.length){
-        console.log(`Wow, you both got equally long names, ${hacker1} characters!!`);
-    } else if (hacker1.length > str2.length){
+        console.log(`Wow, you both got equally long names, ${str1.length} characters!!`);
+    } else if (str1.length > str2.length){
         console.log(`The Driver has the longest name, it has ${str1.length} characters`);
     } else {
-        console.log(`Yo, navigator got the longest name, it has ${hacker2} characters`);
+        console.log(`Yo, navigator got the longest name, it has ${str2.length} characters`);
     }
 };
+
+strLength(hacker1, hacker2);
 
 //Loops --------------------------
 //6 -------------
